@@ -88,21 +88,21 @@ void loop()
    
    }
    
-   void Strt(){
+   void Strt() {
    digitalWrite(pinMotor1cw, HIGH);
    digitalWrite(pinMotor2ccw, HIGH);
    }
    
-   void L(){
+   void L() {
    digitalWrite(pinMotor1cw, HIGH);}
    
-   void R(){
+   void R() {
   
    {digitalWrite(pinMotor2ccw, HIGH);}
    
-   void HL(){
+   void HL() {
    digitalWrite(pinMotor2cw, HIGH);
    digitalWrite(pinMotor1cw, HIGH);}
-   void HR(){
+   void HR() {
    digitalWrite(pinMotor2ccw, HIGH);
    digitalWrite(pinMotor1ccw, HIGH);}
